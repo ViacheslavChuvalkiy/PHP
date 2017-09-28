@@ -1,0 +1,68 @@
+body {
+  background: #eee;;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  width: auto;
+  height: auto;
+  text-indent: 200px;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 50px;
+  letter-spacing: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.tabl {
+  display: flex;
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabl-name {
+  display: flex;
+  text-align: left;
+  width: 800px;
+  height: auto;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.Name-firm {
+  color: black;
+  text-decoration: none;
+}
+
+.button-item {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.img-text {
+  display: block;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.img-rekl {
+  width: 200px;
+  height: 100px; 
+}
+
+
+

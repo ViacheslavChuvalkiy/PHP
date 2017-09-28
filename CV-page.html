@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Анкета</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"           
+          href="CV-pageStyle.css">
+  </head>  
+  <body>
+
+    <h1> Привет, заполни анкету, пожалуйста!
+    </h1>
+
+    <div class="tabl">
+
+      <form action="CV-page.html" method="POST">
+        <div class="tabl-name">
+          <label for="First Name">
+            Имя 
+          </label>
+          <input
+                 type="text"
+                 placeholder="Введите ваше Имя "
+                 required
+                 maxlength="20">
+        </div>
+        <div class="tabl-name">
+          <label for="Last Name">
+            Фамилия 
+          </label>
+          <input 
+                 type="text"
+                 placeholder="Введите вашу Фамилию"
+                 required
+                 maxlength="20">
+        </div>
+
+        <div class="tabl-name">
+          <label for="Second Name">
+            Отчество
+          </label>
+          <input  
+                 type="text"
+                 placeholder="Введите ваше Отчество "
+                 required
+                 maxlength="20">
+        </div>
+
+        <div class="tabl-name">
+          <label for="Education">Образование :</label>
+          <input type="radio" name="answer education" value="middle"   /> Среднее 
+          <input type="radio" name="answer education" value="incomplete higher education" /> Н/Высшее
+          <input type="radio" name="answer education" value="higher education"  /> Высшее
+          <input type="radio" name="answer education" value="master"   /> Магистр
+        </div>
+
+        <div class="tabl-name">
+          <label for="University">
+            Учебное заведение
+          </label>
+          <input  id="Имя"
+                 type="text"
+                 placeholder="Введите название ВУЗа"
+                 required
+                 maxlength="40">
+        </div>  
+
+        <div class="tabl-name">
+          <label for="year of study">
+            Сколько лет учились 
+          </label>
+          <input  
+                 type="number"
+                 placeholder="Введите сколько лет вы учились"
+                 required
+                 maxlength="12">
+        </div>              
+
+        <div class="tabl-name">
+          <label for="specialty">
+            Специальность
+          </label>
+          <input  
+                 type="text"
+                 placeholder="Введите вашу специальность"
+                 required
+                 maxlength="30">
+        </div>  
+        <div class="tabl-name">
+          <label for="Work">Опыт работы :</label>
+          <input type="radio" name="answer work" value="middle"   /> Есть 
+          <input type="radio" name="answer work" value="incomplete higher education" /> Нету
+        </div>
+
+        <div class="tabl-name">
+          <label for="Work experience ">
+            Кол-во месяцев работы 
+          </label>
+          <input  
+                 type="number"
+                 placeholder="Введите кол-во месяцев работы"
+                 required
+                 maxlength="5">
+        </div>
+
+        <div class="tabl-name">
+          <label for="Other language">Инностранный язык</label>
+          <input type="radio" name="Answer lang" value="English"   /> English 
+          <input type="radio" name="Answer lang" value="French" /> French
+          <input type="radio" name="Answer lang" value="Spanish"  /> Spanish
+          <input type="radio" name="Answer lang" value="German"   /> German
+        </div>
+
+        <div class="tabl-name">
+          <a href="#"
+             class="Name-firm">
+            Положенние  :  </a>
+          <select> 
+            <option value="state">В браке</option>
+            <option value="state">Холост</option>
+          </select>
+        </div>
+
+        <div class="tabl-name">
+          <label for="position">
+            Ваша должность 
+          </label>
+          <input  
+                 type="text"
+                 placeholder="Название вакансии"
+                 required
+                 maxlength="20">
+        </div>
+
+        <div class="tabl-name">
+          <label for="Date of birth">
+            Дата Рожденья
+          </label>
+          <input type="week" name="year_week">
+        </div>
+
+        <div class="tabl-name">
+          <label for="Photo">
+            Фото
+          </label>
+          <input type="file" name="img">
+        </div>
+
+        <div class="tabl-name">      
+          <label for="email">
+            e-mail
+          </label>
+          <input  id="email"
+                 type="email"
+                 placeholder="Введите ваш e-mail"
+                 required>
+        </div>
+
+        <button type="Submit" class="button-item">Отправить</button>
+        <button type="Submit" class="button-item">Очистить</button>
+        </div>   
+
+      <span class="img-text">Присоеденяйтесь к нам </span>
+
+      <p class="rekl">
+        <a href="https://uk-ua.facebook.com" target="_blanc"><img class="img-rekl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAYUPutGeH5qn31CCuyDuCzZNWeosZ_iY6mQn4ZsBldMh6lxTziw" ></a> </p>
+      </body>
+      <footer>
+        &copy; All rights reserved, 2017 
+      </footer>  
+    </html>
